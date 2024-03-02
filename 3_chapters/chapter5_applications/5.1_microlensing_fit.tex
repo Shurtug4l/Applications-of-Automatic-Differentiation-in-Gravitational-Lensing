@@ -1,0 +1,121 @@
+\section{Microlensing light-curve fit}
+\label{sec:fit_micro}
+
+The standard microlensing light-curve, also known as the Paczynski light-curve, \citep{paczynski_gravitational_1986}, as introduced in \cref{sec:microlenses}, is defined by three parameters: the impact parameter $y_0$, the maximum magnification time $t_0$, and the Einstein radius crossing time $t_E$, which represents the time scale of the microlensing event. The latter implicitly depends on other relevant quantities of the lensing system, the lens mass $M$, the relative velocity between lens and source $v_{rel}$ and the distances between lens and source from the observer $D_L$ and $D_S$. The combination of these parameters defines the amplification to which a source with intrinsic flux $f_S$ is subjected.
+
+The first step consists of simulating a microlensing event to obtain synthetic observational data, to which noise is then added in such a way as to mimic observational errors. We start by considering a lens with mass $M = \SI{0.3}{\msun}$ placed at a distance $D_L = \SI{4.0}{\kilo\parsec}$. We then define a source behind the lens, at a distance $D_S = \SI{8.0}{\kilo\parsec}$, characterized by an intrinsic flux of $f_S = 7.0$ (in arbitrary units), which moves with relative velocity $v_{rel} = \SI{200.0}{\kilo\meter\per\second}$ with respect to the lens. Assuming that one could monitor the source for a long period (one year in this case), a microlensing event happens when the source moves across the Einstein radius of the lens, causing a peak in the magnification. In this simulation, this occurs at $t_0 = \SI{183.0}{\day}$. After setting up the model parameters, shown in \cref{tab:parameters_micro_0}, the simulated light curve can be computed and the result is shown in \cref{fig:initial_model_micro} (black dots). The errors in the photometric measurement are assumed to be $10\%$ of the baseline flux.
+Subsequently, the model was initialized with random parameters. Predictions of the model, given the set of initial parameters, are shown in \cref{fig:initial_model_micro} (red line), along with the standardized residuals, which are expressed in units of standard deviation from the mean.
+
+\begin{figure}
+  \begin{minipage}{\linewidth}
+    \centering
+    \subfloat[]{\includegraphics[width=\linewidth, keepaspectratio]{img/chapter5/microlensing/lc_initialmodel.png}\label{fig:lc_initialmodel}}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+    \centering
+    \subfloat[]{\includegraphics[width=\linewidth, keepaspectratio]{img/chapter5/microlensing/residuals_init.png}\label{fig:residuals_init}}
+  \end{minipage}
+  \caption[Microlensing initial predictions and residuals]{\protect\subref{fig:lc_initialmodel} Initial predictions of the model and \protect\subref{fig:residuals_init} residuals expressed in units of standard deviation from their mean.}
+  \label{fig:initial_model_micro}
+\end{figure}
+
+\clearpage
+
+\begin{table}[t]
+\setlength{\extrarowheight}{2pt}
+\setlength{\tabcolsep}{1pt}
+\centering
+\caption{Summary of the parameters before and after fitting the model with the set of degenerate parameters.}
+\label{tab:parameters_micro_0}
+%\resizebox{0.2\linewidth}{!}{
+\begin{tabular}{@{}c@{\hskip 10pt}c@{}@{\hskip 10pt}c@{}@{\hskip 10pt}c@{}@{\hskip 10pt}c@{}}
+\toprule
+Parameter         & True value                          & Initial value                        & Best-fit value                           & Best-fit value                                                              \\
+                  &                                     &                                      & (degeneracy)                             & (MCMC)                                                                      \\ \midrule
+$f_S$             & \SI{7.0}{}                          & \SI{2.0}{}                           & \SI{6.993}{}                            & \SI[separate-uncertainty=true]{7.017 \pm 0.040}{}                         \\
+$M$               & \SI{0.3}{\msun}                     & \SI{0.8}{\msun}                      & \SI{0.556}{\msun}                       & \SI[separate-uncertainty=true]{0.620 \pm 0.466}{\msun}                    \\
+$y_0$             & \SI{0.1}{}                          & \SI{0.6}{}                           & \SI{0.100}{}                            & \SI[separate-uncertainty=true]{0.101 \pm 0.001}{}                         \\
+$v_{rel}$         & \SI{200.0}{\kilo\meter\per\second}  & \SI{180.0}{\kilo\meter\per\second}   & \SI{182.881}{\kilo\meter\per\second}    & \SI[separate-uncertainty=true]{231.722 \pm 49.037}{\kilo\meter\per\second}\\
+$t_0$             & \SI{183.0}{\day}                    & \SI{114.0}{\day}                     & \SI{183.002}{\day}                      & \SI[separate-uncertainty=true]{183.018 \pm 0.023}{\day}                   \\
+$D_L$             & \SI{4.0}{\kilo\parsec}              & \SI{2.0}{\kilo\parsec}               & \SI{1.548}{\kilo\parsec}                & \SI[separate-uncertainty=true]{3.166 \pm 1.698}{\kilo\parsec}             \\
+$D_S$             & \SI{8.0}{\kilo\parsec}              & \SI{7.0}{\kilo\parsec}               & \SI{3.786}{\kilo\parsec}                & \SI[separate-uncertainty=true]{8.658 \pm 3.457}{\kilo\parsec}             \\ \bottomrule
+\end{tabular}
+%}
+\end{table}
+
+After initializing the model, the cost function was defined to quantify the discrepancy between the model and the observed data. In this case, a reduced chi-square $\chi_\n^2$ was specified as the metric of choice. It is defined as
+\be
+\label{eq:5.01}
+\chi_\nu^2 = \frac{\chi^2}{\nu} = \frac{1}{\nu} \sum\limits_{i} \bs{\frac{(O_{i} - E_{i})^2}{\s_i^2}} \,,
+\ee
+where $O_i$ and $E_i$ are the $i$-th observed and expected values respectively, while $\s_i$ is the data uncertainty on the $i$-th observed value. The term $\nu$ represents the degrees of freedom, calculated as the number of observations minus the number of fitted parameters. A value of $\chi_\n^2$ close to 1 suggests that the model fits the data well, with deviations between the observed and expected values largely attributable to random noise. A value significantly greater than 1 indicates that the model does not fit the data well, possibly due to systematic errors, an incorrect model, or an underestimation of the variability in the data. On the contrary, a value significantly less than 1 may suggest that the model fits the data too well, potentially due to overfitting or overestimation of the variability in the data.
+
+At this stage, Adam \citep{kingma_adam_2017} is set as the optimizer to perform a gradient descent optimization on the cost function of choice and minimize its value by updating the model parameters at each iteration. Training starts with a loss value of $\chi_\n^2 = 192.939$ and, after 1000 iterations, the algorithm stops after reaching a $\chi_\n^2 = 1.028$.
+
+As can be seen \cref{tab:parameters_micro_0}, even though the input parameters $f_S$, $y_0$ and $t_0$ are accurately estimated, almost matching their true values precisely, the other parameters show considerable deviation from their actual values. This discrepancy was expected and, as introduced in \cref{sec:microlenses}, is due to the high microlensing degeneracy, as these parameters collectively influence the determination of the Einstein crossing time $t_E$. In fact, it is the Einstein crossing time alone that shapes the light curve's profile.
+
+This degeneracy can also be seen after performing a Bayesian sampling of the posterior probability distribution of the parameters using the Monte Carlo Markov Chain (MCMC) sampler implemented in the \texttt{Pyro}\footnote{\url{https://pyro.ai/}} framework \citep{bingham_pyro_2018}, which is a probabilistic programming language built on top of \texttt{PyTorch}, designed to create and run complex probabilistic models. The resulting posterior probability distributions of the parameters are shown in \cref{fig:corner_micro_bad}. In the literature, numerous methods have been known to attempt to break this degeneracy \citep{lee_microlensing_2017}. In this case, the choice was made to redefine the model so that it directly depends on $t_E$, a quantity that, as mentioned, implicitly contains all the degenerate parameters within it.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, keepaspectratio]{img//chapter5//microlensing/corner_bad.png}
+    \caption[Microlensing corner plot showing degeneracy]{Corner plot showing the posterior probability distributions of the parameters used to fit the light-curve in \cref{fig:lc_initialmodel}. The projections of the probability density on planes defined by each couple of parameters, as well as one-dimensional marginalized distributions are shown. The degeneracy among the parameters $M$, $v_{rel}$, $D_L$ and $D_S$ is clearly visible.}
+    \label{fig:corner_micro_bad}
+\end{figure}
+
+The fitting procedure for the simulated observations was therefore repeated, defining a model with the same initial parameters but fitting only the parameters $f_S$, $t_0$, $y_0$ and $t_E$. In this case, the initial reduced chi-square value is $\chi_\n^2 = 193.270$, and after training the model for the same number of epochs as before, it drops to a value of $\chi_\n^2 = 1.009$. The best-fit parameters are indicated in \cref{tab:parameters_micro_1}, while \cref{fig:final_model_micro,fig:micro_loss} show, respectively, the best-fit model with its standardized residuals, and the trend of the cost function as a function of the number of iterations.
+
+\begin{table}
+\setlength{\extrarowheight}{2pt}
+\setlength{\tabcolsep}{1pt}
+\centering
+\caption{Summary of the parameters before and after fitting the model a second time to avoid degeneracy.}
+\label{tab:parameters_micro_1}
+%\resizebox{0.2\linewidth}{!}{
+\begin{tabular}{@{}c@{\hskip 20pt}c@{}@{\hskip 20pt}c@{}@{\hskip 20pt}c@{}@{\hskip 20pt}c@{}}
+\toprule
+Parameter           & True value                            & Initial value                        & Best-fit value         & Best-fit value                                            \\
+                    &                                       &                                      & (training)             & (MCMC)                                                    \\\midrule
+$f_S$               & \SI{7.0}{}                            & \SI{2.0}{}                           & \SI{7.065}{}          & \SI[separate-uncertainty=true]{7.052 \pm 0.041}{}       \\
+$M$\anote           & \SI{0.3}{\msun}                       & \SI{0.8}{\msun}                      &                        &                                                           \\
+$y_0$               & \SI{0.1}{}                            & \SI{0.6}{}                           & \SI{0.103}{}          & \SI[separate-uncertainty=true]{0.100 \pm 0.001}{}       \\
+$v_{rel}$\anote     & \SI{200.0}{\kilo\meter\per\second}    & \SI{180.0}{\kilo\meter\per\second}   &                        &                                                           \\
+$t_0$               & \SI{183.0}{\day}                      & \SI{114.0}{\day}                     & \SI{182.989}{\day}    & \SI[separate-uncertainty=true]{183.010 \pm 0.022}{\day} \\
+$D_L$\anote         & \SI{4.0}{\kilo\parsec}                & \SI{2.0}{\kilo\parsec}               &                        &                                                           \\
+$D_S$\anote         & \SI{8.0}{\kilo\parsec}                & \SI{7.0}{\kilo\parsec}               &                        &                                                           \\
+$t_E$               & \SI{19.1369}{\day}                    & \SI{29.3461}{\day}                   & \SI{19.025}{\day}   & \SI[separate-uncertainty=true]{19.054 \pm 0.207}{\day}  \\ \bottomrule
+\end{tabular}
+%}
+\smallskip
+\parbox[]{0.9\textwidth}{\footnotesize
+  \textit{*:}
+  Parameters not fitted to avoid degeneracy.
+}
+\end{table}
+
+\begin{figure}
+  \begin{minipage}{\linewidth}
+    \centering
+    \subfloat[]{\includegraphics[width=\linewidth, keepaspectratio]{img/chapter5/microlensing/best_fit.png}\label{fig:lc_finalmodel}}
+  \end{minipage}
+  \begin{minipage}{\linewidth}
+    \centering
+    \subfloat[]{\includegraphics[width=\linewidth, keepaspectratio]{img/chapter5/microlensing/residuals_best.png}\label{fig:residuals_final}}
+  \end{minipage}
+  \caption[Microlensing initial predictions and residuals]{\protect\subref{fig:lc_finalmodel} Predictions of the best-fit model and \protect\subref{fig:residuals_final} residuals expressed in units of standard deviation from their mean.}
+  \label{fig:final_model_micro}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, keepaspectratio]{img//chapter5//microlensing/corner_good.png}
+    \caption[Microlensing corner plot non degenerate parameters]{As \cref{fig:corner_micro_bad} but for a model whose free parameters are $f_S$, $t_0$, $y_0$, $t_E$.}
+    \label{fig:corner_micro_good}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, keepaspectratio]{img//chapter5//microlensing/loss.png}
+    \caption[Microlensing loss value as a function of epochs]{Loss value as a function of epochs.}
+    \label{fig:micro_loss}
+\end{figure}

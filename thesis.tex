@@ -1,0 +1,170 @@
+%*******************************************************
+%%% Thesis for Astrophysics & Cosmology thesis
+%%% Alma Mater Studiorum - University of Bologna
+%%% Author: Simone La Porta
+%%% Created: March 2024
+%*******************************************************
+
+
+%%%%% DOCUMENT CLASS ************************************************************
+\documentclass[print, final, thumbmain]{src/thesis}    % printing version
+%\documentclass[final]{src/thesis}              % final electronic version)
+
+%%%%% PREAMBLE ******************************************************************
+% Loading files
+\input{src/packages}	% packages
+\input{src/commands}	% custom commands
+\input{src/mathematics}	% custom mathematics
+
+%\usepackage{showframe} % page-layout diagram
+
+
+%%%%% DOCUMENT DETAILS **********************************************************
+\author{Simone La Porta}
+\title{Applications of automatic differentiation in gravitational lensing}
+\makeatletter
+
+\AtBeginDocument{\RenewCommandCopy\qty\SI}	% fix for siunitx and siunitx-quantity
+\NewDocumentCommand{\anote}{}{\makebox[0pt][l]{$^*$}}	% add a note to tables
+%%%% MAIN DOCUMENT *************************************************************
+\begin{document}
+\selectlanguage{english}
+\pagenumbering{roman}
+\thispagestyle{empty}
+
+%%%%% FRONT MATTERS *************************************************************
+\cover{img/cover_front.pdf}    % Add front cover if the option 'print' is not used.
+
+% Color bleau de france for title and thumb index
+%\definecolor{thumbcolor}{rgb}{0.19, 0.55, 0.91}
+%\definecolor{titlecolor}{rgb}{0.19, 0.55, 0.91}
+
+% Color black for title and thumb index
+\definecolor{thumbcolor}{rgb}{0, 0, 0}
+\definecolor{titlecolor}{rgb}{0, 0, 0}
+
+
+%%%%% TITLEPAGE ***********************************
+\include{0_preface/titlepage}
+\afterpage{\blankpage}
+
+%%%%% EPIGRAPH ***********************************
+\include{0_preface/epigraph}
+\afterpage{\blankpage}
+
+\singlespacing
+
+\setcounter{page}{1}
+
+%%%%% ABSTRACT ***********************************
+\include{1_summary/abstract}
+
+%%%%% SOMMARIO ***********************************
+\include{1_summary/sommario}
+
+\onehalfspacing
+
+\selectlanguage{english}
+\cleardoublepage
+
+%%%%% TOC ***********************************
+\pdfbookmark{\contentsname}{Contents}
+\tableofcontents
+
+%\newpage
+
+%%%%% GLOSSARY ***********************************
+%\include{2_glossary/glossary}
+
+\cleardoublepage
+
+%%%%% LIST OF FIGURES *****************************
+\pdfbookmark{\contentsname}{List of Figures}
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+
+%%%%% LIST OF TABLES *****************************
+\pdfbookmark{\contentsname}{List of Tables}
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+
+%%%%% MAIN MATTER ***********************************
+\isstarredchapterfalse	% normal chapter: YES thumb index
+\cleardoublepage
+\thispagestyle{empty}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\onehalfspacing
+\pagestyle{fancy}
+
+% *************************************************************
+%%%%% CHAPTER 1: INTRODUCTION %%%%%
+\include{3_chapters/chapter1_cosmology/1.0_cosmology}
+
+
+% *************************************************************
+%%%%% CHAPTER 2: GRAVITATIONAL LENSING %%%%%
+\cleardoublepage
+\include{3_chapters/chapter2_gravitational_lensing/2.0_gravitational_lensing}
+
+
+% *************************************************************
+%%%%% CHAPTER 3: LENS MODELS %%%%%
+\cleardoublepage
+\include{3_chapters/chapter3_lens_models/3.0_lens_models}
+
+
+% *************************************************************
+%%%%% CHAPTER 4: OPTIMIZATION ALGORITHMS %%%%%
+\cleardoublepage
+%\include{3_chapters/chapter4_algorithms/4.0_algorithms}
+
+
+% *************************************************************
+%%%%% CHAPTER 5: APPLICATIONS %%%%%
+\cleardoublepage
+%\include{3_chapters/chapter5_applications/5.0_applications}
+
+
+% *************************************************************
+%%%%% CHAPTER 6: CONCLUSIONS %%%%%
+\cleardoublepage
+\include{3_chapters/chapter6_conclusions/6.0_conclusions}
+
+
+%%%%% APPENDIX ***********************************
+\cleardoublepage
+\appendix
+%\part{Appendices}
+%\include{4_appendix/4.0_appendix}
+
+
+%%%% BACK MATTER ***********************************
+\isstarredchaptertrue   % starred chapter: NO thumb index
+\bookmarksetup{startatroot}
+\addtocontents{toc}{\bigskip}
+
+
+%%%%% BIBLIOGRAPHY ***********************************
+\bibliographystyle{aasjournal}
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliography{5_bibliography/references.bib}
+
+
+%%%%% BIBLIOGRAPHY ***********************************
+\selectlanguage{italian}
+\include{6_ringraziamenti/ringraziamenti}    % ringraziamenti
+
+%%%% BACK ***********************************
+% Add back cover if the option 'print' is not used. Require an even number of pages.
+\ifprint{\cleardoublepage}
+\else
+\newpage{~}
+\thispagestyle{empty}
+\includepdf[pages=-]{img/cover_front.pdf}
+\fi
+
+\end{document}

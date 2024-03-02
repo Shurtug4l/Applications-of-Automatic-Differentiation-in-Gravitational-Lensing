@@ -1,0 +1,23 @@
+\chapter[Algorithms]{Algorithms}
+\label{chap:algorithms}
+
+Building on the foundational understanding of gravitational lensing and its computational challenges, a critical aspect of modern astrophysical research involves the optimization of parametric functions to model the complex phenomena of the Universe accurately. This optimization is essential in gravitational lensing studies, where precise models of the mass distribution within lensing objects are paramount for interpreting the observed lensing effects. The optimization process often requires navigating a high-dimensional parameter space to find the best-fit parameters that reconcile theoretical models with observational data, a task that can be computationally intensive and algorithmically complex.
+
+In this context, the advent of frameworks such as PyTorch\footnote{\url{https://pytorch.org}} \citep{paszke_pytorch_2019} and TensorFlow\footnote{\url{https://www.tensorflow.org}} \citep{abadi_tensorflow_2016} represents a significant leap forward for astrophysical research. These open-source libraries, primarily developed for deep learning applications, offer powerful tools for automatic differentiation, a technique that facilitates the calculation of gradients automatically, a cornerstone for any optimization algorithm. The ability of PyTorch and TensorFlow to efficiently compute derivatives of highly complex, nested functions makes them exceptionally well suited for optimizing parametric models in gravitational lensing studies.
+
+Moreover, PyTorch and TensorFlow are designed to exploit the capabilities of modern computing hardware, including GPUs and TPUs, enabling the parallel processing of large datasets and the acceleration of computational tasks. This feature is particularly beneficial for gravitational lensing research, where handling large amounts of observational data and running complex simulations is commonplace. Using the computational power offered by these frameworks, one can significantly reduce the time required for model optimization and data analysis, thus enhancing the efficiency of the investigations.
+
+% *************************************************************
+%%%%% SECTION 4.1: DIFFERENTIABLE PROGRAMMING %%%%%
+\input{3_chapters/chapter4_algorithms/4.1_differentiable_programming}
+
+The following sections will detail the methods used for the simulation and analysis of the objects presented in \cref{chap:applications}. Beginning with the modeling of light sources and the adopted surface brightness profiles, the discussion will advance to the techniques used for simulating and reconstructing strong gravitational lenses. Finally, methods will be described to assess the accuracy of the model fit to the observed/simulated data.
+
+% *************************************************************
+%%%%% SECTION 4.2: LIGHT MODELS %%%%%
+\input{3_chapters/chapter4_algorithms/4.2_light_models}
+
+
+% *************************************************************
+%%%%% SECTION 4.3: LENS INVERSION %%%%%
+\input{3_chapters/chapter4_algorithms/4.3_lens_reconstruction}

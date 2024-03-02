@@ -1,0 +1,13 @@
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\markboth{Abstract}{Abstract}
+\pagestyle{empty}
+
+Gravitational lensing, a remarkable consequence of Einstein's theory of general relativity, provides a unique opportunity to explore the fundamental properties of the universe by studying the distortions caused by massive objects on the path of light rays. However, analyzing and modeling gravitational lenses poses many challenges, due to the complex nature of the lensing effects and the vast amount of observational data and computational resources required.
+
+The primary objective of this thesis is to address these challenges by developing advanced Python algorithms based on differentiable programming paradigm, leveraging the capabilities of PyTorch and TensorFlow frameworks to enable precise modeling and analysis of gravitational lenses. By employing parametric models, these algorithms exploit automatic differentiation to backpropagate errors and compute gradients of a loss function, facilitating the optimization of high-dimensional parameter spaces. 
+Through the training of these parametric models, relevant features can be extracted and key parameters of the lensing system can be estimated. The resulting models can then be applied to real observational data, improving the characterization and classification of strong lenses with enhanced accuracy and efficiency.
+
+The use of PyTorch and TensorFlow in the implementation of these algorithms allows efficient utilization of modern computational resources, such as GPUs, to handle the inherent computational complexity involved in strong lens analysis. Furthermore, the flexibility and extensibility of these frameworks enable seamless integration with other astrophysical and computational tools, facilitating a comprehensive and robust analysis of strong lenses.
+
+The structure of this thesis is the following: an introduction to the main concepts of cosmology and gravitational lensing theory is presented in \cref{chap:cosmology,chap:gravitational_lensing}, followed by an extensive description of the most important lens models in \cref{chap:lens_models}. \Cref{chap:algorithms} describes the differentiable programming paradigm, its characteristics, and some examples of algorithms to model and analyze gravitational lenses and light sources. Finally, \cref{chap:applications} specifically focus on the application of differentiable programming and automatic differentiation methods to microlensing and strong lensing optimization problems. Finally, an example of surface brightness fitting is presented as a means to derive the shape and ellipticity of a galaxy, fundamental information for performing weak lensing measurements.

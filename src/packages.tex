@@ -1,0 +1,88 @@
+%!TEX root = ../thesis.tex
+
+%%%%%%%%%%%%%%% MATHEMATICS %%%%%%%%%%%%%%%
+\usepackage{amsmath}    % mathematical typesetting
+\usepackage{amsfonts}   % mathematics fonts
+\usepackage{amssymb}    % mathematical symbols
+\usepackage{amsthm}     % theorem-like environments
+\usepackage{thmtools}   % extensions to theorem environments
+\usepackage{array}      % array and matrices
+\usepackage{siunitx}    % SI units
+\usepackage{physics}    % physics
+
+
+%%%%%%%%%%%%%%% GENERAL %%%%%%%%%%%%%%%
+\usepackage[main=english, italian]{babel} % languages
+\usepackage[utf8]{inputenc} % input encodings
+\usepackage{enumitem} % layout of itemize, enumerate, description
+\usepackage{accents}  % accents
+\usepackage{appendix} % appendix
+\usepackage{afterpage}  % commands expanded after the page
+\usepackage[autostyle]{csquotes}  % quotations
+\usepackage{fancyhdr} % page headers and footers
+\usepackage{natbib} % bibliography support
+\usepackage{lipsum} % dummy text
+\usepackage{lmodern}  % latin modern fonts
+\usepackage{microtype}  % typographical refinements
+\usepackage{geometry} % manage document dimensions
+
+%%%%%%%%%%%%%%% UTILS %%%%%%%%%%%%%%%
+\usepackage{epsfig} % include eps
+\usepackage{epstopdf} % convert eps to pdf
+\usepackage{float}  % floating objects
+\usepackage{graphicx} % support for graphics
+\usepackage{longtable}  % tables over page boundaries
+\usepackage{multicol} % multi columns
+\usepackage{multirow} % tabular cells spanning multiple rows
+\usepackage[final]{pdfpages}  % include pdf
+\usepackage{relsize}  % font size relative to the current font size
+\usepackage{subfig} % figures broken into subfigures
+\usepackage{setspace} % space between lines
+\usepackage{tcolorbox}  % coloured boxes
+\usepackage{tikz} % tool to create graphic elements
+\usepackage{url}  % url-sensitive line breaks
+\usepackage{textcomp} % text companion font
+\usepackage{xcolor} % color extensions
+\usepackage{epigraph} % epigraph
+\usepackage{listings} % code listings
+\usepackage{mathrsfs} % script typestyle for uppercase letters
+\usepackage{booktabs} % For professional looking tables
+\usepackage[multiple]{footmisc} % multiple footnotes
+
+% settings for the listings package
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\usepackage[
+    colorlinks=true,    % colored hyperlinks
+    linkcolor=black,    % normal internal links
+    citecolor=blue,     % bibliographical citations
+    pdfpagemode=FullScreen, % how the file is opening in Acrobat
+    pdftitle={
+        Development of algorithms for strong lens analysis with PyTorch and TensorFlow
+        },  % title of the file
+    pdfauthor={Simone La Porta},    % author of the file
+    pdfpagelayout=OneColumn % displays the document in one column, continuous scrolling
+    ]{hyperref}     % support for hypertext
+
+\usepackage[nameinlink, capitalise, english, italian]{cleveref}     % cross-referencing
+% customize the way equation references are formatted when using the \cref command
+\creflabelformat{equation}{(#2\textup{\textcolor{red}{#1}}#3)}
+
+\usepackage{bookmark}   % manage pdf bookmarks
+
+\urlstyle{same} % url same font of surrounding text

@@ -1,0 +1,65 @@
+%!TEX root = ../thesis.tex
+
+
+\usepackage{mathtools}  % extension of the amsmath package
+\usepackage{xparse}     % custom document commands with more advanced and flexible syntax
+
+%%%% BRACKETS **************************************************************
+\newcommand{\bc}[1]{\left\lbrace #1 \right\rbrace}  % curly brackets adjusted auto
+\newcommand{\bp}[1]{\left( #1 \right)}              % parentheses adjusted auto
+\newcommand{\bs}[1]{\left[ #1 \right]}              % square brackets adjusted auto
+
+
+%%%% GREEK LETTERS **************************************************************
+
+\def\A{\Alpha}	% alpha
+\def\a{\alpha}
+\def\B{\Beta}	% beta
+\def\b{\beta}
+\def\c{\chi}	% chi
+\def\G{\Gamma}	% gamma
+\def\g{\gamma}
+\def\D{\Delta}	% delta
+\def\d{\delta}
+\def\e{\epsilon}	% epsilon
+\def\ve{\varepsilon}	% varepsilon
+\def\F{\Phi}	% phi
+\def\f{\phi}
+\def\vf{\varphi}	% varphi
+\def\h{\eta}
+\def\T{\Theta}	% theta
+\def\t{\theta}
+\def\vt{\vartheta}	% vartheta
+\def\k{\kappa}	% kappa
+\def\L{\Lambda}	% lambda
+\def\l{\lambda}
+\def\m{\mu}	% mu
+\def\n{\nu}	% nu
+\def\O{\Omega}	% omega
+\def\o{\omega}
+\def\vp{\varpi}	% varpi
+\def\P{\Psi}	% psi
+\def\p{\psi}
+\def\r{\rho}	% rho
+\def\S{\Sigma}	% sigma
+\def\s{\sigma}
+\def\vs{\varsigma}	% varsigma
+\def\X{\Xi}	% xi
+\def\x{\xi}
+\def\z{\zeta}	% zeta
+
+% Scientific notation with a centered dot and a non-italicized exponent.
+% Usage: number \pwr{exponent}
+\newcommand{\pwr}[1]{\cdot10^{\textrm{#1}}}
+
+
+%%%% UNITS **************************************************************
+\DeclareSIUnit\year{yr}	% year
+\DeclareSIUnit\parsec{pc}	% parsec
+\DeclareSIUnit\msun{M_{\odot}}	% solar mass
+\DeclareSIUnit\pixel{pix}	% pixel
+
+
+
+\DeclareMathOperator{\arcsinh}{arcsinh}	% inverse hyperbolic sine
+\DeclareMathOperator*{\argmin}{arg\,min}	% argmin
