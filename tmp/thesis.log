@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.4)  4 MAR 2024 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.4)  4 MAR 2024 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1228,6 +1228,54 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@lstlisting=\count409
 Package hyperref Info: Link coloring ON on input line 30.
 Package cleveref Info: loaded `english' language definitions on input line 31.
+
+
+pdfTeX warning: pdflatex (file ./img/cover_front.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/cover_front.pdf, id=7, 1866.975pt x 2640.11343pt>
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf>
+Package pdftex.def Info: img/cover_front.pdf  used on input line 36.
+(pdftex.def)             Requested size: 1866.97047pt x 2640.10703pt.
+
+
+pdfTeX warning: pdflatex (file ./img/cover_front.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf>
+Package pdftex.def Info: img/cover_front.pdf  used on input line 36.
+(pdftex.def)             Requested size: 1866.97047pt x 2640.10703pt.
+
+
+pdfTeX warning: pdflatex (file ./img/cover_front.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./img/cover_front.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/cover_front.pdf, id=10, page=1, 1866.975pt x 2640.11343pt>
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 1866.97047pt x 2640.10703pt.
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+[1
+
+
+ <./img/cover_front.pdf>] [2
+
+]
 \openout2 = `0_preface/titlepage.aux'.
 
  (./0_preface/titlepage.tex
@@ -1264,16 +1312,15 @@ Package cleveref Info: loaded `english' language definitions on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [1
-
+ [3
 
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}])
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.52 \include{0_preface/epigraph}
-                                  [1
+                                  [3
 
 
 
@@ -1319,7 +1366,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)) [2] [0
+)) [4] [0
 
 
 
@@ -1348,9 +1395,19 @@ l.2 \chapter
 
 
 
-]) [3]
+])
+pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \include{1_summary/sommario}
+                                  [3]
 Package cleveref Info: loaded `english' language definitions on input line 67.
- [4
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 \tableofcontents
+                      [4
 
 
 
@@ -1412,7 +1469,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./3_chapters/chapter1_cosmology/1.1_history.tex
-<img//chapter1/hubble.png, id=315, 480.79625pt x 295.1025pt>
+<img//chapter1/hubble.png, id=329, 480.79625pt x 295.1025pt>
 File: img//chapter1/hubble.png Graphic file (type png)
 <use img//chapter1/hubble.png>
 Package pdftex.def Info: img//chapter1/hubble.png  used on input line 9.
@@ -1440,7 +1497,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 54
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<img//chapter1/scalefactort.png, id=364, 598.235pt x 556.0775pt>
+<img//chapter1/scalefactort.png, id=379, 598.235pt x 556.0775pt>
 File: img//chapter1/scalefactort.png Graphic file (type png)
 <use img//chapter1/scalefactort.png>
 Package pdftex.def Info: img//chapter1/scalefactort.png  used on input line 91.
@@ -1476,7 +1533,7 @@ Underfull \vbox (badness 3758) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 33.
 Package cleveref Info: loaded `english' language definitions on input line 33.
  [8]
-<img//chapter2/bornapprox.png, id=461, 1094.0875pt x 455.7025pt>
+<img//chapter2/bornapprox.png, id=475, 1094.0875pt x 455.7025pt>
 File: img//chapter2/bornapprox.png Graphic file (type png)
 <use img//chapter2/bornapprox.png>
 Package pdftex.def Info: img//chapter2/bornapprox.png  used on input line 38.
@@ -1487,7 +1544,7 @@ Underfull \vbox (badness 1571) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 57.
 Package cleveref Info: loaded `english' language definitions on input line 57.
  [9 <./img//chapter2/bornapprox.png>]) (./3_chapters/chapter2_gravitational_lensing/2.2_lens_equation.tex
-<img/chapter2/lensing_sketch.png, id=477, 320.19624pt x 165.61874pt>
+<img/chapter2/lensing_sketch.png, id=493, 320.19624pt x 165.61874pt>
 File: img/chapter2/lensing_sketch.png Graphic file (type png)
 <use img/chapter2/lensing_sketch.png>
 Package pdftex.def Info: img/chapter2/lensing_sketch.png  used on input line 10.
@@ -1503,12 +1560,12 @@ Package cleveref Info: loaded `english' language definitions on input line 40.
 Package cleveref Info: loaded `english' language definitions on input line 89.
 Package cleveref Info: loaded `english' language definitions on input line 89.
  [12]
-<img/chapter2/lensing_distance_a.png, id=517, 659.96964pt x 626.14728pt>
+<img/chapter2/lensing_distance_a.png, id=531, 659.96964pt x 626.14728pt>
 File: img/chapter2/lensing_distance_a.png Graphic file (type png)
 <use img/chapter2/lensing_distance_a.png>
 Package pdftex.def Info: img/chapter2/lensing_distance_a.png  used on input line 100.
 (pdftex.def)             Requested size: 206.28249pt x 195.70876pt.
-<img/chapter2/lensing_distance_b.png, id=518, 640.16766pt x 626.14728pt>
+<img/chapter2/lensing_distance_b.png, id=532, 640.16766pt x 626.14728pt>
 File: img/chapter2/lensing_distance_b.png Graphic file (type png)
 <use img/chapter2/lensing_distance_b.png>
 Package pdftex.def Info: img/chapter2/lensing_distance_b.png  used on input line 102.
@@ -1522,12 +1579,12 @@ Package cleveref Info: loaded `english' language definitions on input line 119.
 Package cleveref Info: loaded `english' language definitions on input line 147.
 Package cleveref Info: loaded `english' language definitions on input line 147.
  [14 <./img/chapter2/lensing_distance_a.png> <./img/chapter2/lensing_distance_b.png>]
-<img//chapter2/convergence_shear.png, id=546, 397.485pt x 150.5625pt>
+<img//chapter2/convergence_shear.png, id=560, 397.485pt x 150.5625pt>
 File: img//chapter2/convergence_shear.png Graphic file (type png)
 <use img//chapter2/convergence_shear.png>
 Package pdftex.def Info: img//chapter2/convergence_shear.png  used on input line 161.
 (pdftex.def)             Requested size: 412.56497pt x 156.28033pt.
-<img//chapter2/shear_orientations.png, id=552, 586.19pt x 554.07pt>
+<img//chapter2/shear_orientations.png, id=566, 586.19pt x 554.07pt>
 File: img//chapter2/shear_orientations.png Graphic file (type png)
 <use img//chapter2/shear_orientations.png>
 Package pdftex.def Info: img//chapter2/shear_orientations.png  used on input line 170.
@@ -1540,7 +1597,7 @@ Underfull \vbox (badness 3323) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 201.
 Package cleveref Info: loaded `english' language definitions on input line 201.
  [16 <./img//chapter2/shear_orientations.png>]
-<img//chapter2/caustics_critlines.png, id=580, 1104.125pt x 743.77875pt>
+<img//chapter2/caustics_critlines.png, id=595, 1104.125pt x 743.77875pt>
 File: img//chapter2/caustics_critlines.png Graphic file (type png)
 <use img//chapter2/caustics_critlines.png>
 Package pdftex.def Info: img//chapter2/caustics_critlines.png  used on input line 234.
@@ -1553,7 +1610,7 @@ Underfull \vbox (badness 3895) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 265.
 Package cleveref Info: loaded `english' language definitions on input line 265.
  [18 <./img//chapter2/caustics_critlines.png>]
-<img//chapter2/lensedpair.png, id=603, 895.345pt x 600.2425pt>
+<img//chapter2/lensedpair.png, id=618, 895.345pt x 600.2425pt>
 File: img//chapter2/lensedpair.png Graphic file (type png)
 <use img//chapter2/lensedpair.png>
 Package pdftex.def Info: img//chapter2/lensedpair.png  used on input line 279.
@@ -1564,17 +1621,17 @@ Underfull \vbox (badness 1342) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 287.
 Package cleveref Info: loaded `english' language definitions on input line 287.
  [19 <./img//chapter2/lensedpair.png>]
-<img//chapter2/timedelay1d.png, id=627, 342.27875pt x 338.26375pt>
+<img//chapter2/timedelay1d.png, id=641, 342.27875pt x 338.26375pt>
 File: img//chapter2/timedelay1d.png Graphic file (type png)
 <use img//chapter2/timedelay1d.png>
 Package pdftex.def Info: img//chapter2/timedelay1d.png  used on input line 306.
 (pdftex.def)             Requested size: 206.28249pt x 203.86823pt.
-<img//chapter2/timedelay3d.png, id=628, 341.275pt x 327.2225pt>
+<img//chapter2/timedelay3d.png, id=642, 341.275pt x 327.2225pt>
 File: img//chapter2/timedelay3d.png Graphic file (type png)
 <use img//chapter2/timedelay3d.png>
 Package pdftex.def Info: img//chapter2/timedelay3d.png  used on input line 308.
 (pdftex.def)             Requested size: 206.28249pt x 197.79297pt.
-<img//chapter2/einsteinring.png, id=637, 334.24875pt x 511.9125pt>
+<img//chapter2/einsteinring.png, id=651, 334.24875pt x 511.9125pt>
 File: img//chapter2/einsteinring.png Graphic file (type png)
 <use img//chapter2/einsteinring.png>
 Package pdftex.def Info: img//chapter2/einsteinring.png  used on input line 315.
@@ -1598,7 +1655,7 @@ Chapter 3.
 
 
 ]
-<img//chapter3/pointmass_solutions.png, id=672, 719.68875pt x 339.2675pt>
+<img//chapter3/pointmass_solutions.png, id=686, 719.68875pt x 339.2675pt>
 File: img//chapter3/pointmass_solutions.png Graphic file (type png)
 <use img//chapter3/pointmass_solutions.png>
 Package pdftex.def Info: img//chapter3/pointmass_solutions.png  used on input line 51.
@@ -1612,7 +1669,7 @@ Package cleveref Info: loaded `english' language definitions on input line 105.
 Package cleveref Info: loaded `english' language definitions on input line 129.
 Package cleveref Info: loaded `english' language definitions on input line 129.
  [26]
-<img//chapter3/lens_source_trajectory.png, id=707, 538.01pt x 500.87125pt>
+<img//chapter3/lens_source_trajectory.png, id=721, 538.01pt x 500.87125pt>
 File: img//chapter3/lens_source_trajectory.png Graphic file (type png)
 <use img//chapter3/lens_source_trajectory.png>
 Package pdftex.def Info: img//chapter3/lens_source_trajectory.png  used on input line 134.
@@ -1623,7 +1680,7 @@ Underfull \vbox (badness 1394) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 153.
 Package cleveref Info: loaded `english' language definitions on input line 153.
  [27 <./img//chapter3/lens_source_trajectory.png>]
-<img//chapter3/light_curves.png, id=726, 374.39874pt x 180.675pt>
+<img//chapter3/light_curves.png, id=741, 374.39874pt x 180.675pt>
 File: img//chapter3/light_curves.png Graphic file (type png)
 <use img//chapter3/light_curves.png>
 Package pdftex.def Info: img//chapter3/light_curves.png  used on input line 166.
@@ -1643,12 +1700,12 @@ Package cleveref Info: loaded `english' language definitions on input line 78.
 Package cleveref Info: loaded `english' language definitions on input line 100.
 Package cleveref Info: loaded `english' language definitions on input line 100.
  [31]
-<img//chapter3/image_diagrams_1_2.png, id=769, 1020.38013pt x 339.52446pt>
+<img//chapter3/image_diagrams_1_2.png, id=783, 1020.38013pt x 339.52446pt>
 File: img//chapter3/image_diagrams_1_2.png Graphic file (type png)
 <use img//chapter3/image_diagrams_1_2.png>
 Package pdftex.def Info: img//chapter3/image_diagrams_1_2.png  used on input line 106.
 (pdftex.def)             Requested size: 412.56497pt x 137.27351pt.
-<img//chapter3/image_diagrams_2.png, id=770, 1020.38013pt x 339.52446pt>
+<img//chapter3/image_diagrams_2.png, id=784, 1020.38013pt x 339.52446pt>
 File: img//chapter3/image_diagrams_2.png Graphic file (type png)
 <use img//chapter3/image_diagrams_2.png>
 Package pdftex.def Info: img//chapter3/image_diagrams_2.png  used on input line 113.
@@ -1659,7 +1716,7 @@ Package cleveref Info: loaded `english' language definitions on input line 125.
 Package cleveref Info: loaded `english' language definitions on input line 163.
 Package cleveref Info: loaded `english' language definitions on input line 163.
  [33]
-<img//chapter3/sis_extended.png, id=792, 2808.4925pt x 848.16875pt>
+<img//chapter3/sis_extended.png, id=807, 2808.4925pt x 848.16875pt>
 File: img//chapter3/sis_extended.png Graphic file (type png)
 <use img//chapter3/sis_extended.png>
 Package pdftex.def Info: img//chapter3/sis_extended.png  used on input line 179.
@@ -1667,7 +1724,7 @@ Package pdftex.def Info: img//chapter3/sis_extended.png  used on input line 179.
 Package cleveref Info: loaded `english' language definitions on input line 206.
 Package cleveref Info: loaded `english' language definitions on input line 206.
  [34 <./img//chapter3/sis_extended.png>]
-<img//chapter3/nis_radii.png, id=809, 623.6901pt x 610.6815pt>
+<img//chapter3/nis_radii.png, id=824, 623.6901pt x 610.6815pt>
 File: img//chapter3/nis_radii.png Graphic file (type png)
 <use img//chapter3/nis_radii.png>
 Package pdftex.def Info: img//chapter3/nis_radii.png  used on input line 213.
@@ -1683,27 +1740,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 272.
 Package cleveref Info: loaded `english' language definitions on input line 272.
  [36]
-<img//chapter3/naked_cusps.png, id=830, 1148.3703pt x 570.933pt>
+<img//chapter3/naked_cusps.png, id=844, 1148.3703pt x 570.933pt>
 File: img//chapter3/naked_cusps.png Graphic file (type png)
 <use img//chapter3/naked_cusps.png>
 Package pdftex.def Info: img//chapter3/naked_cusps.png  used on input line 298.
 (pdftex.def)             Requested size: 412.56497pt x 205.11755pt.
-<img/chapter3/sie1.png, id=832, 635.2533pt x 622.9674pt>
+<img/chapter3/sie1.png, id=846, 635.2533pt x 622.9674pt>
 File: img/chapter3/sie1.png Graphic file (type png)
 <use img/chapter3/sie1.png>
 Package pdftex.def Info: img/chapter3/sie1.png  used on input line 308.
 (pdftex.def)             Requested size: 206.28249pt x 202.2909pt.
-<img/chapter3/sie2.png, id=833, 635.2533pt x 622.9674pt>
+<img/chapter3/sie2.png, id=847, 635.2533pt x 622.9674pt>
 File: img/chapter3/sie2.png Graphic file (type png)
 <use img/chapter3/sie2.png>
 Package pdftex.def Info: img/chapter3/sie2.png  used on input line 312.
 (pdftex.def)             Requested size: 206.28249pt x 202.2909pt.
-<img/chapter3/sie3.png, id=834, 635.2533pt x 622.9674pt>
+<img/chapter3/sie3.png, id=848, 635.2533pt x 622.9674pt>
 File: img/chapter3/sie3.png Graphic file (type png)
 <use img/chapter3/sie3.png>
 Package pdftex.def Info: img/chapter3/sie3.png  used on input line 316.
 (pdftex.def)             Requested size: 206.28249pt x 202.2909pt.
-<img/chapter3/sie4.png, id=835, 635.2533pt x 622.9674pt>
+<img/chapter3/sie4.png, id=849, 635.2533pt x 622.9674pt>
 File: img/chapter3/sie4.png Graphic file (type png)
 <use img/chapter3/sie4.png>
 Package pdftex.def Info: img/chapter3/sie4.png  used on input line 320.
@@ -1711,7 +1768,7 @@ Package pdftex.def Info: img/chapter3/sie4.png  used on input line 320.
 Package cleveref Info: loaded `english' language definitions on input line 328.
 Package cleveref Info: loaded `english' language definitions on input line 328.
  [37]
-<img//chapter3/sie_multiple_images.png, id=855, 1012.5027pt x 1438.173pt>
+<img//chapter3/sie_multiple_images.png, id=870, 1012.5027pt x 1438.173pt>
 File: img//chapter3/sie_multiple_images.png Graphic file (type png)
 <use img//chapter3/sie_multiple_images.png>
 Package pdftex.def Info: img//chapter3/sie_multiple_images.png  used on input line 335.
@@ -1728,7 +1785,7 @@ Package cleveref Info: loaded `english' language definitions on input line 348.
 Package cleveref Info: loaded `english' language definitions on input line 348.
 Package cleveref Info: loaded `english' language definitions on input line 348.
  [40 <./img//chapter3/sie_multiple_images.png>]
-<img//chapter3/nie.png, id=884, 651.43375pt x 438.63875pt>
+<img//chapter3/nie.png, id=899, 651.43375pt x 438.63875pt>
 File: img//chapter3/nie.png Graphic file (type png)
 <use img//chapter3/nie.png>
 Package pdftex.def Info: img//chapter3/nie.png  used on input line 361.
@@ -1757,7 +1814,7 @@ Chapter 4.
 Package cleveref Info: loaded `english' language definitions on input line 15.
 Package cleveref Info: loaded `english' language definitions on input line 15.
  [46]
-<img//chapter4/diff_methods.png, id=963, 904.37875pt x 419.5675pt>
+<img//chapter4/diff_methods.png, id=978, 904.37875pt x 419.5675pt>
 File: img//chapter4/diff_methods.png Graphic file (type png)
 <use img//chapter4/diff_methods.png>
 Package pdftex.def Info: img//chapter4/diff_methods.png  used on input line 28.
@@ -1765,7 +1822,7 @@ Package pdftex.def Info: img//chapter4/diff_methods.png  used on input line 28.
 Package cleveref Info: loaded `english' language definitions on input line 50.
 Package cleveref Info: loaded `english' language definitions on input line 50.
  [47 <./img//chapter4/diff_methods.png>]
-<img//chapter4/computational_graph.png, id=986, 668.4975pt x 222.8325pt>
+<img//chapter4/computational_graph.png, id=1001, 668.4975pt x 222.8325pt>
 File: img//chapter4/computational_graph.png Graphic file (type png)
 <use img//chapter4/computational_graph.png>
 Package pdftex.def Info: img//chapter4/computational_graph.png  used on input line 82.
@@ -1773,7 +1830,7 @@ Package pdftex.def Info: img//chapter4/computational_graph.png  used on input li
 Package cleveref Info: loaded `english' language definitions on input line 96.
 Package cleveref Info: loaded `english' language definitions on input line 96.
  [48]
-<img//chapter4/forward_trace.png, id=1006, 837.1275pt x 265.99374pt>
+<img//chapter4/forward_trace.png, id=1020, 837.1275pt x 265.99374pt>
 File: img//chapter4/forward_trace.png Graphic file (type png)
 <use img//chapter4/forward_trace.png>
 Package pdftex.def Info: img//chapter4/forward_trace.png  used on input line 112.
@@ -1781,7 +1838,7 @@ Package pdftex.def Info: img//chapter4/forward_trace.png  used on input line 112
 Package cleveref Info: loaded `english' language definitions on input line 124.
 Package cleveref Info: loaded `english' language definitions on input line 124.
  [49 <./img//chapter4/computational_graph.png>]
-<img//chapter4/reverse_trace.png, id=1025, 836.12375pt x 349.305pt>
+<img//chapter4/reverse_trace.png, id=1039, 836.12375pt x 349.305pt>
 File: img//chapter4/reverse_trace.png Graphic file (type png)
 <use img//chapter4/reverse_trace.png>
 Package pdftex.def Info: img//chapter4/reverse_trace.png  used on input line 137.
@@ -1795,22 +1852,22 @@ Package cleveref Info: loaded `english' language definitions on input line 149.
 Package cleveref Info: loaded `english' language definitions on input line 167.
 Package cleveref Info: loaded `english' language definitions on input line 167.
  [51 <./img//chapter4/reverse_trace.png>]
-<img//chapter4/gradient_descent.png, id=1067, 738.76pt x 393.47pt>
+<img//chapter4/gradient_descent.png, id=1082, 738.76pt x 393.47pt>
 File: img//chapter4/gradient_descent.png Graphic file (type png)
 <use img//chapter4/gradient_descent.png>
 Package pdftex.def Info: img//chapter4/gradient_descent.png  used on input line 195.
 (pdftex.def)             Requested size: 206.28249pt x 109.86464pt.
-<img//chapter4/gradient_descent2d.png, id=1068, 655.44875pt x 458.71375pt>
+<img//chapter4/gradient_descent2d.png, id=1083, 655.44875pt x 458.71375pt>
 File: img//chapter4/gradient_descent2d.png Graphic file (type png)
 <use img//chapter4/gradient_descent2d.png>
 Package pdftex.def Info: img//chapter4/gradient_descent2d.png  used on input line 197.
 (pdftex.def)             Requested size: 206.28249pt x 144.36261pt.
-<img//chapter4/lr_small.png, id=1081, 742.775pt x 378.41376pt>
+<img//chapter4/lr_small.png, id=1096, 742.775pt x 378.41376pt>
 File: img//chapter4/lr_small.png Graphic file (type png)
 <use img//chapter4/lr_small.png>
 Package pdftex.def Info: img//chapter4/lr_small.png  used on input line 204.
 (pdftex.def)             Requested size: 206.28249pt x 105.089pt.
-<img//chapter4/lr_high.png, id=1082, 742.775pt x 377.41pt>
+<img//chapter4/lr_high.png, id=1097, 742.775pt x 377.41pt>
 File: img//chapter4/lr_high.png Graphic file (type png)
 <use img//chapter4/lr_high.png>
 Package pdftex.def Info: img//chapter4/lr_high.png  used on input line 206.
@@ -1821,7 +1878,7 @@ Package cleveref Info: loaded `english' language definitions on input line 210.
 Package cleveref Info: loaded `english' language definitions on input line 210.
 Package cleveref Info: loaded `english' language definitions on input line 210.
  [53 <./img//chapter4/gradient_descent.png> <./img//chapter4/gradient_descent2d.png> <./img//chapter4/lr_small.png> <./img//chapter4/lr_high.png>]
-<img//chapter4/backpropagation.png, id=1126, 810.02625pt x 397.485pt>
+<img//chapter4/backpropagation.png, id=1140, 810.02625pt x 397.485pt>
 File: img//chapter4/backpropagation.png Graphic file (type png)
 <use img//chapter4/backpropagation.png>
 Package pdftex.def Info: img//chapter4/backpropagation.png  used on input line 236.
@@ -1835,7 +1892,7 @@ Underfull \vbox (badness 1642) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 24.
 Package cleveref Info: loaded `english' language definitions on input line 24.
  [55 <./img//chapter4/backpropagation.png>]
-<img//chapter4/sersic_n.png, id=1165, 287.0725pt x 271.0125pt>
+<img//chapter4/sersic_n.png, id=1179, 287.0725pt x 271.0125pt>
 File: img//chapter4/sersic_n.png Graphic file (type png)
 <use img//chapter4/sersic_n.png>
 Package pdftex.def Info: img//chapter4/sersic_n.png  used on input line 41.
@@ -1843,7 +1900,7 @@ Package pdftex.def Info: img//chapter4/sersic_n.png  used on input line 41.
 Package cleveref Info: loaded `english' language definitions on input line 61.
 Package cleveref Info: loaded `english' language definitions on input line 61.
  [56]
-<img//chapter4/core_sersic.png, id=1193, 385.44pt x 285.065pt>
+<img//chapter4/core_sersic.png, id=1207, 385.44pt x 285.065pt>
 File: img//chapter4/core_sersic.png Graphic file (type png)
 <use img//chapter4/core_sersic.png>
 Package pdftex.def Info: img//chapter4/core_sersic.png  used on input line 68.
@@ -1854,7 +1911,7 @@ Package cleveref Info: loaded `english' language definitions on input line 80.
 Package cleveref Info: loaded `english' language definitions on input line 80.
 Package cleveref Info: loaded `english' language definitions on input line 80.
  [58 <./img//chapter4/core_sersic.png>]
-<img//chapter4/fwhm.png, id=1215, 853.1875pt x 585.18625pt>
+<img//chapter4/fwhm.png, id=1230, 853.1875pt x 585.18625pt>
 File: img//chapter4/fwhm.png Graphic file (type png)
 <use img//chapter4/fwhm.png>
 Package pdftex.def Info: img//chapter4/fwhm.png  used on input line 112.
@@ -1862,7 +1919,7 @@ Package pdftex.def Info: img//chapter4/fwhm.png  used on input line 112.
 Package cleveref Info: loaded `english' language definitions on input line 115.
 Package cleveref Info: loaded `english' language definitions on input line 115.
  [59]) (./3_chapters/chapter4_algorithms/4.3_lens_reconstruction.tex
-<img//chapter4/observables.png, id=1253, 665.48625pt x 255.95625pt>
+<img//chapter4/observables.png, id=1267, 665.48625pt x 255.95625pt>
 File: img//chapter4/observables.png Graphic file (type png)
 <use img//chapter4/observables.png>
 Package pdftex.def Info: img//chapter4/observables.png  used on input line 11.
@@ -1876,7 +1933,7 @@ Package cleveref Info: loaded `english' language definitions on input line 31.
 Package cleveref Info: loaded `english' language definitions on input line 47.
 Package cleveref Info: loaded `english' language definitions on input line 47.
  [62]
-<img//chapter4/multiple_images_param.png, id=1364, 750.01807pt x 756.52235pt>
+<img//chapter4/multiple_images_param.png, id=1378, 750.01807pt x 756.52235pt>
 File: img//chapter4/multiple_images_param.png Graphic file (type png)
 <use img//chapter4/multiple_images_param.png>
 Package pdftex.def Info: img//chapter4/multiple_images_param.png  used on input line 58.
@@ -1908,12 +1965,12 @@ Chapter 5.
 
 
 ]
-<img/chapter5/microlensing/lc_initialmodel.png, id=1444, 899.0388pt x 474.0912pt>
+<img/chapter5/microlensing/lc_initialmodel.png, id=1458, 899.0388pt x 474.0912pt>
 File: img/chapter5/microlensing/lc_initialmodel.png Graphic file (type png)
 <use img/chapter5/microlensing/lc_initialmodel.png>
 Package pdftex.def Info: img/chapter5/microlensing/lc_initialmodel.png  used on input line 12.
 (pdftex.def)             Requested size: 412.56497pt x 217.5565pt.
-<img/chapter5/microlensing/residuals_init.png, id=1445, 899.90604pt x 474.0912pt>
+<img/chapter5/microlensing/residuals_init.png, id=1459, 899.90604pt x 474.0912pt>
 File: img/chapter5/microlensing/residuals_init.png Graphic file (type png)
 <use img/chapter5/microlensing/residuals_init.png>
 Package pdftex.def Info: img/chapter5/microlensing/residuals_init.png  used on input line 16.
@@ -1939,27 +1996,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<img//chapter5//microlensing/corner_bad.png, id=1478, 1130.73642pt x 1153.71828pt>
+<img//chapter5//microlensing/corner_bad.png, id=1493, 1130.73642pt x 1153.71828pt>
 File: img//chapter5//microlensing/corner_bad.png Graphic file (type png)
 <use img//chapter5//microlensing/corner_bad.png>
 Package pdftex.def Info: img//chapter5//microlensing/corner_bad.png  used on input line 61.
 (pdftex.def)             Requested size: 412.56497pt x 420.95404pt.
-<img/chapter5/microlensing/best_fit.png, id=1484, 899.0388pt x 474.0912pt>
+<img/chapter5/microlensing/best_fit.png, id=1499, 899.0388pt x 474.0912pt>
 File: img/chapter5/microlensing/best_fit.png Graphic file (type png)
 <use img/chapter5/microlensing/best_fit.png>
 Package pdftex.def Info: img/chapter5/microlensing/best_fit.png  used on input line 99.
 (pdftex.def)             Requested size: 412.56497pt x 217.5565pt.
-<img/chapter5/microlensing/residuals_best.png, id=1485, 899.90604pt x 474.0912pt>
+<img/chapter5/microlensing/residuals_best.png, id=1500, 899.90604pt x 474.0912pt>
 File: img/chapter5/microlensing/residuals_best.png Graphic file (type png)
 <use img/chapter5/microlensing/residuals_best.png>
 Package pdftex.def Info: img/chapter5/microlensing/residuals_best.png  used on input line 103.
 (pdftex.def)             Requested size: 412.56497pt x 217.35396pt.
-<img//chapter5//microlensing/corner_good.png, id=1490, 675.43542pt x 698.41728pt>
+<img//chapter5//microlensing/corner_good.png, id=1505, 675.43542pt x 698.41728pt>
 File: img//chapter5//microlensing/corner_good.png Graphic file (type png)
 <use img//chapter5//microlensing/corner_good.png>
 Package pdftex.def Info: img//chapter5//microlensing/corner_good.png  used on input line 111.
 (pdftex.def)             Requested size: 412.56497pt x 426.60939pt.
-<img//chapter5//microlensing/loss.png, id=1493, 901.27917pt x 471.9231pt>
+<img//chapter5//microlensing/loss.png, id=1508, 901.27917pt x 471.9231pt>
 File: img//chapter5//microlensing/loss.png Graphic file (type png)
 <use img//chapter5//microlensing/loss.png>
 Package pdftex.def Info: img//chapter5//microlensing/loss.png  used on input line 118.
@@ -1990,12 +2047,12 @@ Package cleveref Info: loaded `english' language definitions on input line 66.
 Package cleveref Info: loaded `english' language definitions on input line 107.
 Package cleveref Info: loaded `english' language definitions on input line 107.
  [77]
-<img/chapter5/strong_lens/init_data.png, id=1562, 634.0247pt x 641.0349pt>
+<img/chapter5/strong_lens/init_data.png, id=1576, 634.0247pt x 641.0349pt>
 File: img/chapter5/strong_lens/init_data.png Graphic file (type png)
 <use img/chapter5/strong_lens/init_data.png>
 Package pdftex.def Info: img/chapter5/strong_lens/init_data.png  used on input line 115.
 (pdftex.def)             Requested size: 247.54149pt x 250.27647pt.
-<img/chapter5/strong_lens/init_data_super.png, id=1563, 634.0247pt x 641.0349pt>
+<img/chapter5/strong_lens/init_data_super.png, id=1577, 634.0247pt x 641.0349pt>
 File: img/chapter5/strong_lens/init_data_super.png Graphic file (type png)
 <use img/chapter5/strong_lens/init_data_super.png>
 Package pdftex.def Info: img/chapter5/strong_lens/init_data_super.png  used on input line 119.
@@ -2004,7 +2061,7 @@ Package pdftex.def Info: img/chapter5/strong_lens/init_data_super.png  used on i
 
 LaTeX Warning: Float too large for page by 19.95454pt on input line 123.
 
-<img//chapter5//strong_lens/sp_pred.png, id=1572, 636.12054pt x 641.0349pt>
+<img//chapter5//strong_lens/sp_pred.png, id=1586, 636.12054pt x 641.0349pt>
 File: img//chapter5//strong_lens/sp_pred.png Graphic file (type png)
 <use img//chapter5//strong_lens/sp_pred.png>
 Package pdftex.def Info: img//chapter5//strong_lens/sp_pred.png  used on input line 157.
@@ -2018,32 +2075,32 @@ Package cleveref Info: loaded `english' language definitions on input line 165.
 Package cleveref Info: loaded `english' language definitions on input line 165.
 Package cleveref Info: loaded `english' language definitions on input line 165.
  [80 <./img//chapter5//strong_lens/sp_pred.png>]
-<img/chapter5/strong_lens/sp_loss.png, id=1597, 632.50703pt x 638.8668pt>
+<img/chapter5/strong_lens/sp_loss.png, id=1611, 632.50703pt x 638.8668pt>
 File: img/chapter5/strong_lens/sp_loss.png Graphic file (type png)
 <use img/chapter5/strong_lens/sp_loss.png>
 Package pdftex.def Info: img/chapter5/strong_lens/sp_loss.png  used on input line 172.
 (pdftex.def)             Requested size: 202.15909pt x 204.1881pt.
-<img/chapter5/strong_lens/best_fit_sp.png, id=1598, 634.0247pt x 641.0349pt>
+<img/chapter5/strong_lens/best_fit_sp.png, id=1612, 634.0247pt x 641.0349pt>
 File: img/chapter5/strong_lens/best_fit_sp.png Graphic file (type png)
 <use img/chapter5/strong_lens/best_fit_sp.png>
 Package pdftex.def Info: img/chapter5/strong_lens/best_fit_sp.png  used on input line 176.
 (pdftex.def)             Requested size: 202.15909pt x 204.39197pt.
-<img/chapter5/strong_lens/sp_best_fit.png, id=1603, 639.73404pt x 641.0349pt>
+<img/chapter5/strong_lens/sp_best_fit.png, id=1617, 639.73404pt x 641.0349pt>
 File: img/chapter5/strong_lens/sp_best_fit.png Graphic file (type png)
 <use img/chapter5/strong_lens/sp_best_fit.png>
 Package pdftex.def Info: img/chapter5/strong_lens/sp_best_fit.png  used on input line 185.
 (pdftex.def)             Requested size: 247.54149pt x 248.04633pt.
-<img/chapter5/strong_lens/sp_best_fit_imageplane.png, id=1604, 630.62802pt x 641.0349pt>
+<img/chapter5/strong_lens/sp_best_fit_imageplane.png, id=1618, 630.62802pt x 641.0349pt>
 File: img/chapter5/strong_lens/sp_best_fit_imageplane.png Graphic file (type png)
 <use img/chapter5/strong_lens/sp_best_fit_imageplane.png>
 Package pdftex.def Info: img/chapter5/strong_lens/sp_best_fit_imageplane.png  used on input line 189.
 (pdftex.def)             Requested size: 247.54149pt x 251.62631pt.
-<img/chapter5/strong_lens/ip_pred.png, id=1610, 745.32051pt x 752.3307pt>
+<img/chapter5/strong_lens/ip_pred.png, id=1624, 745.32051pt x 752.3307pt>
 File: img/chapter5/strong_lens/ip_pred.png Graphic file (type png)
 <use img/chapter5/strong_lens/ip_pred.png>
 Package pdftex.def Info: img/chapter5/strong_lens/ip_pred.png  used on input line 203.
 (pdftex.def)             Requested size: 247.54149pt x 249.86555pt.
-<img/chapter5/strong_lens/ip_dist.png, id=1611, 742.64651pt x 752.3307pt>
+<img/chapter5/strong_lens/ip_dist.png, id=1625, 742.64651pt x 752.3307pt>
 File: img/chapter5/strong_lens/ip_dist.png Graphic file (type png)
 <use img/chapter5/strong_lens/ip_dist.png>
 Package pdftex.def Info: img/chapter5/strong_lens/ip_dist.png  used on input line 207.
@@ -2061,12 +2118,12 @@ Package cleveref Info: loaded `english' language definitions on input line 214.
 Package cleveref Info: loaded `english' language definitions on input line 214.
 Package cleveref Info: loaded `english' language definitions on input line 214.
  [83 <./img/chapter5/strong_lens/ip_pred.png> <./img/chapter5/strong_lens/ip_dist.png>]
-<img/chapter5/strong_lens/ip_loss.png, id=1647, 628.09857pt x 638.8668pt>
+<img/chapter5/strong_lens/ip_loss.png, id=1661, 628.09857pt x 638.8668pt>
 File: img/chapter5/strong_lens/ip_loss.png Graphic file (type png)
 <use img/chapter5/strong_lens/ip_loss.png>
 Package pdftex.def Info: img/chapter5/strong_lens/ip_loss.png  used on input line 221.
 (pdftex.def)             Requested size: 202.15909pt x 205.6211pt.
-<img/chapter5/strong_lens/ip_best.png, id=1648, 634.0247pt x 641.0349pt>
+<img/chapter5/strong_lens/ip_best.png, id=1662, 634.0247pt x 641.0349pt>
 File: img/chapter5/strong_lens/ip_best.png Graphic file (type png)
 <use img/chapter5/strong_lens/ip_best.png>
 Package pdftex.def Info: img/chapter5/strong_lens/ip_best.png  used on input line 225.
@@ -2083,12 +2140,12 @@ Package cleveref Info: loaded `english' language definitions on input line 39.
 Package cleveref Info: loaded `english' language definitions on input line 80.
 Package cleveref Info: loaded `english' language definitions on input line 80.
  [87]
-<img/chapter5/sersic/0_clean.png, id=1691, 674.2791pt x 596.2275pt>
+<img/chapter5/sersic/0_clean.png, id=1706, 674.2791pt x 596.2275pt>
 File: img/chapter5/sersic/0_clean.png Graphic file (type png)
 <use img/chapter5/sersic/0_clean.png>
 Package pdftex.def Info: img/chapter5/sersic/0_clean.png  used on input line 86.
 (pdftex.def)             Requested size: 309.42372pt x 273.61295pt.
-<img/chapter5/sersic/0_noisy.png, id=1692, 674.2791pt x 596.2275pt>
+<img/chapter5/sersic/0_noisy.png, id=1707, 674.2791pt x 596.2275pt>
 File: img/chapter5/sersic/0_noisy.png Graphic file (type png)
 <use img/chapter5/sersic/0_noisy.png>
 Package pdftex.def Info: img/chapter5/sersic/0_noisy.png  used on input line 90.
@@ -2097,7 +2154,7 @@ Package pdftex.def Info: img/chapter5/sersic/0_noisy.png  used on input line 90.
 
 LaTeX Warning: Float too large for page by 12.22746pt on input line 94.
 
-<img//chapter5/sersic/0_flux_r.png, id=1697, 521.0667pt x 338.2236pt>
+<img//chapter5/sersic/0_flux_r.png, id=1712, 521.0667pt x 338.2236pt>
 File: img//chapter5/sersic/0_flux_r.png Graphic file (type png)
 <use img//chapter5/sersic/0_flux_r.png>
 Package pdftex.def Info: img//chapter5/sersic/0_flux_r.png  used on input line 98.
@@ -2116,22 +2173,22 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 134.
 
-<img/chapter5/sersic/1_initial.png, id=1740, 674.2791pt x 596.2275pt>
+<img/chapter5/sersic/1_initial.png, id=1754, 674.2791pt x 596.2275pt>
 File: img/chapter5/sersic/1_initial.png Graphic file (type png)
 <use img/chapter5/sersic/1_initial.png>
 Package pdftex.def Info: img/chapter5/sersic/1_initial.png  used on input line 137.
 (pdftex.def)             Requested size: 202.15909pt x 178.76045pt.
-<img/chapter5/sersic/1_residuals.png, id=1741, 680.7834pt x 596.2275pt>
+<img/chapter5/sersic/1_residuals.png, id=1755, 680.7834pt x 596.2275pt>
 File: img/chapter5/sersic/1_residuals.png Graphic file (type png)
 <use img/chapter5/sersic/1_residuals.png>
 Package pdftex.def Info: img/chapter5/sersic/1_residuals.png  used on input line 141.
 (pdftex.def)             Requested size: 202.15909pt x 177.0501pt.
-<img/chapter5/sersic/sersic_best_fit.png, id=1748, 674.2791pt x 596.2275pt>
+<img/chapter5/sersic/sersic_best_fit.png, id=1762, 674.2791pt x 596.2275pt>
 File: img/chapter5/sersic/sersic_best_fit.png Graphic file (type png)
 <use img/chapter5/sersic/sersic_best_fit.png>
 Package pdftex.def Info: img/chapter5/sersic/sersic_best_fit.png  used on input line 150.
 (pdftex.def)             Requested size: 202.15909pt x 178.76045pt.
-<img/chapter5/sersic/res_bestfit.png, id=1749, 680.7834pt x 596.2275pt>
+<img/chapter5/sersic/res_bestfit.png, id=1763, 680.7834pt x 596.2275pt>
 File: img/chapter5/sersic/res_bestfit.png Graphic file (type png)
 <use img/chapter5/sersic/res_bestfit.png>
 Package pdftex.def Info: img/chapter5/sersic/res_bestfit.png  used on input line 154.
@@ -2146,7 +2203,7 @@ Package cleveref Info: loaded `english' language definitions on input line 163.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 164.
 
-<img//chapter5//sersic/loss_sersic.png, id=1779, 909.1566pt x 445.9059pt>
+<img//chapter5//sersic/loss_sersic.png, id=1793, 909.1566pt x 445.9059pt>
 File: img//chapter5//sersic/loss_sersic.png Graphic file (type png)
 <use img//chapter5//sersic/loss_sersic.png>
 Package pdftex.def Info: img//chapter5//sersic/loss_sersic.png  used on input line 166.
@@ -2161,7 +2218,7 @@ Underfull \vbox (badness 3471) has occurred while \output is active []
 Package cleveref Info: loaded `english' language definitions on input line 197.
 Package cleveref Info: loaded `english' language definitions on input line 197.
  [92 <./img//chapter5//sersic/loss_sersic.png>]
-<img//chapter5//sersic/corner_sersic.png, id=1798, 1139.6979pt x 1153.4292pt>
+<img//chapter5//sersic/corner_sersic.png, id=1812, 1139.6979pt x 1153.4292pt>
 File: img//chapter5//sersic/corner_sersic.png Graphic file (type png)
 <use img//chapter5//sersic/corner_sersic.png>
 Package pdftex.def Info: img//chapter5//sersic/corner_sersic.png  used on input line 207.
@@ -2228,10 +2285,51 @@ Package cleveref Info: loaded `english' language definitions on input line 159.
  (./6_ringraziamenti/ringraziamenti.tex [107
 
 
-]) [108] (tmp/thesis.aux (tmp/0_preface/titlepage.aux)
+]) [108]
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf>
+Package pdftex.def Info: img/cover_front.pdf  used on input line 167.
+(pdftex.def)             Requested size: 1866.97047pt x 2640.10703pt.
+
+
+pdfTeX warning: pdflatex (file ./img/cover_front.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf>
+Package pdftex.def Info: img/cover_front.pdf  used on input line 167.
+(pdftex.def)             Requested size: 1866.97047pt x 2640.10703pt.
+
+
+pdfTeX warning: pdflatex (file ./img/cover_front.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 1866.97047pt x 2640.10703pt.
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+[109
+
+
+]
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+File: img/cover_front.pdf Graphic file (type pdf)
+<use img/cover_front.pdf, page 1>
+Package pdftex.def Info: img/cover_front.pdf , page1 used on input line 167.
+(pdftex.def)             Requested size: 597.58665pt x 845.05501pt.
+ [110
+
+] (tmp/thesis.aux
+Package cleveref Info: loaded `english' language definitions on input line 8.
 Package cleveref Info: loaded `english' language definitions on input line 9.
-Package cleveref Info: loaded `english' language definitions on input line 10.
- (tmp/0_preface/epigraph.aux) (tmp/1_summary/abstract.aux) (tmp/1_summary/sommario.aux
+ (tmp/0_preface/titlepage.aux) (tmp/0_preface/epigraph.aux) (tmp/1_summary/abstract.aux) (tmp/1_summary/sommario.aux
 Package cleveref Info: loaded `italian' language definitions on input line 3.
 )
 Package cleveref Info: loaded `english' language definitions on input line 17.
@@ -2244,18 +2342,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 46608 strings out of 474122
- 972271 string characters out of 5743967
+ 46620 strings out of 474122
+ 972629 string characters out of 5743967
  1944187 words of memory out of 5000000
- 67055 multiletter control sequences out of 15000+600000
+ 67065 multiletter control sequences out of 15000+600000
  700471 words of font info for 302 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,18n,121p,1841b,1437s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmro9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/tex-gyre/qbkb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on tmp/thesis.pdf (122 pages, 41985406 bytes).
+Output written on tmp/thesis.pdf (126 pages, 43431086 bytes).
 PDF statistics:
- 2414 PDF objects out of 2487 (max. 8388607)
- 1992 compressed objects within 20 object streams
- 607 named destinations out of 1000 (max. 500000)
- 76065 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 2439 PDF objects out of 2487 (max. 8388607)
+ 2005 compressed objects within 21 object streams
+ 609 named destinations out of 1000 (max. 500000)
+ 76095 words of extra memory for PDF output out of 89155 (max. 10000000)
 
