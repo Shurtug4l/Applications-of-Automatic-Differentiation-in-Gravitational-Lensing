@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: 0_preface/titlepage.aux
+A level-1 auxiliary file: 0_preface/epigraph.aux
+A level-1 auxiliary file: 1_summary/abstract.aux
+A level-1 auxiliary file: 1_summary/sommario.aux
+A level-1 auxiliary file: 3_chapters/chapter1_cosmology/1.0_cosmology.aux
+A level-1 auxiliary file: 3_chapters/chapter2_gravitational_lensing/2.0_gravitational_lensing.aux
+A level-1 auxiliary file: 3_chapters/chapter3_lens_models/3.0_lens_models.aux
+A level-1 auxiliary file: 3_chapters/chapter4_algorithms/4.0_algorithms.aux
+A level-1 auxiliary file: 3_chapters/chapter5_applications/5.0_applications.aux
+A level-1 auxiliary file: 3_chapters/chapter6_conclusions/6.0_conclusions.aux
+The style file: aasjournal.bst
+A level-1 auxiliary file: 6_ringraziamenti/ringraziamenti.aux
+Database file #1: 5_bibliography/references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty publisher in amini_spatial_2018
+Warning--empty school in burke_assembly_2013
+Warning--empty journal in ruder_overview_2016
+Warning--can't use both author and editor fields in schneider_gravitational_1992
+Warning--empty journal in speagle_conceptual_2019
+Warning--empty journal in sumi_unbound_2011
+Warning--empty publisher in sersic_atlas_1968
+Warning--empty journal in tully_hubble_2023
+You've used 112 entries,
+            3168 wiz_defined-function locations,
+            1444 strings with 32790 characters,
+and the built_in function-call counts, 47568 in all, are:
+= -- 4024
+> -- 3177
+< -- 83
++ -- 1065
+- -- 1105
+* -- 4034
+:= -- 8696
+add.period$ -- 130
+call.type$ -- 112
+change.case$ -- 636
+chr.to.int$ -- 153
+cite$ -- 120
+duplicate$ -- 1862
+empty$ -- 3262
+format.name$ -- 1244
+if$ -- 9700
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 90
+newline$ -- 362
+num.names$ -- 457
+pop$ -- 726
+preamble$ -- 1
+purify$ -- 619
+quote$ -- 0
+skip$ -- 1575
+stack$ -- 0
+substring$ -- 1641
+swap$ -- 57
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 966
+warning$ -- 8
+while$ -- 430
+width$ -- 0
+write$ -- 1225
+(There were 8 warnings)

@@ -1,0 +1,70 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{i}{chapter*.1}%
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{Sommario}{iii}{chapter*.2}%
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{List of Figures}{vi}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{viii}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Cosmological background}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}History}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Friedmann Equations}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Expansion rate}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Dynamics of the expansion}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Cosmological distances}{5}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Gravitational lensing}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Light deflection}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Lens equation}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Lensing potential and convergence}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}First-order lens mapping}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Magnification}{17}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Time-delay and multiple images}{18}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}Lens models}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Microlenses}{23}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Deflection angle and lensing potential}{23}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Lens equation and multiple images}{24}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Critical lines, caustics and magnification}{25}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Microlensing light-curve}{26}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Extended lenses}{29}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Axially symmetric profiles}{29}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Power-law profiles}{30}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Singular Isothermal Sphere}{32}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Non-singular Isothermal Sphere}{34}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Singular Isothermal Ellipsoid}{36}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Non-singular Isothermal Ellipsoid}{41}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}External shear}{42}{subsection.3.2.7}%
+\contentsline {chapter}{\numberline {4}Algorithms}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Differentiable programming}{45}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Automatic differentiation}{47}{subsection.4.1.1}%
+\contentsline {subsubsection}{Computational graph}{47}{subsubsection*.29}%
+\contentsline {subsubsection}{Forward mode}{49}{subsubsection*.31}%
+\contentsline {subsubsection}{Reverse mode}{50}{subsubsection*.33}%
+\contentsline {subsection}{\numberline {4.1.2}Backpropagation algorithm}{51}{subsection.4.1.2}%
+\contentsline {subsubsection}{Loss function}{51}{subsubsection*.35}%
+\contentsline {subsubsection}{Gradient descent}{52}{subsubsection*.36}%
+\contentsline {subsubsection}{Training loop}{54}{subsubsection*.39}%
+\contentsline {section}{\numberline {4.2}Light sources modeling}{55}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Sérsic profile}{56}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Core-Sérsic profile}{56}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Sky component}{57}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Point Spread Function}{59}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Lens reconstruction}{60}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Parametric reconstruction}{62}{subsection.4.3.1}%
+\contentsline {subsubsection}{Lens plane and source plane optimization}{63}{subsubsection*.46}%
+\contentsline {chapter}{\numberline {5}Applications}{67}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Microlensing light-curve fit}{67}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Strong lens parametric reconstruction}{75}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Lens modelling}{76}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Solving the lens equation}{77}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Lens optimization}{78}{subsection.5.2.3}%
+\contentsline {subsubsection}{Source plane optimization}{78}{subsubsection*.57}%
+\contentsline {subsubsection}{Image plane optimization}{81}{subsubsection*.61}%
+\contentsline {section}{\numberline {5.3}Surface brightness and galaxy shapes}{85}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Fit of Sérsic profile of surface brightness}{86}{subsection.5.3.1}%
+\contentsline {subsubsection}{Simulation of observational data}{87}{subsubsection*.64}%
+\contentsline {subsubsection}{Fitting the model to data}{88}{subsubsection*.67}%
+\contentsline {chapter}{\numberline {6}Summary and conclusions}{95}{chapter.6}%
+\vspace \bigskipamount 
+\contentsline {chapter}{Bibliography}{99}{chapter.6}%
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{Ringraziamenti}{107}{appendix*.75}%

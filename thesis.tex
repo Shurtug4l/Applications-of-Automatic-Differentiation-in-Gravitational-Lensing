@@ -7,7 +7,7 @@
 
 
 %%%%% DOCUMENT CLASS ************************************************************
-\documentclass[print, final, thumbmain]{src/thesis}    % printing version
+\documentclass[print, final]{src/thesis}    % printing version
 %\documentclass[final]{src/thesis}              % final electronic version)
 
 %%%%% PREAMBLE ******************************************************************
@@ -65,7 +65,7 @@
 \onehalfspacing
 
 \selectlanguage{english}
-\cleardoublepage
+%\cleardoublepage
 
 %%%%% TOC ***********************************
 \pdfbookmark{\contentsname}{Contents}
@@ -76,12 +76,13 @@
 %%%%% GLOSSARY ***********************************
 %\include{2_glossary/glossary}
 
-\cleardoublepage
+%\cleardoublepage
 
 %%%%% LIST OF FIGURES *****************************
 \pdfbookmark{\contentsname}{List of Figures}
 \addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
+%\cleardoublepage
 
 
 %%%%% LIST OF TABLES *****************************
@@ -96,7 +97,6 @@
 \thispagestyle{empty}
 \setcounter{page}{1}
 \pagenumbering{arabic}
-\onehalfspacing
 \pagestyle{fancy}
 
 % *************************************************************
@@ -119,13 +119,13 @@
 % *************************************************************
 %%%%% CHAPTER 4: OPTIMIZATION ALGORITHMS %%%%%
 \cleardoublepage
-%\include{3_chapters/chapter4_algorithms/4.0_algorithms}
+\include{3_chapters/chapter4_algorithms/4.0_algorithms}
 
 
 % *************************************************************
 %%%%% CHAPTER 5: APPLICATIONS %%%%%
 \cleardoublepage
-%\include{3_chapters/chapter5_applications/5.0_applications}
+\include{3_chapters/chapter5_applications/5.0_applications}
 
 
 % *************************************************************
