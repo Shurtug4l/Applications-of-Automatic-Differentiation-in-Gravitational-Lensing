@@ -52,7 +52,7 @@
 \include{0_preface/epigraph}
 \afterpage{\blankpage}
 
-\singlespacing
+\singlespacing%
 
 \setcounter{page}{1}
 
@@ -62,7 +62,7 @@
 %%%%% SOMMARIO ***********************************
 \include{1_summary/sommario}
 
-\onehalfspacing
+\onehalfspacing%
 
 \selectlanguage{english}
 %\cleardoublepage
@@ -92,8 +92,8 @@
 
 
 %%%%% MAIN MATTER ***********************************
-\isstarredchapterfalse	% normal chapter: YES thumb index
-\cleardoublepage
+\isstarredchapterfalse% normal chapter: YES thumb index
+\cleardoublepage%
 \thispagestyle{empty}
 \setcounter{page}{1}
 \pagenumbering{arabic}
@@ -106,50 +106,50 @@
 
 % *************************************************************
 %%%%% CHAPTER 2: GRAVITATIONAL LENSING %%%%%
-\cleardoublepage
+\cleardoublepage%
 \include{3_chapters/chapter2_gravitational_lensing/2.0_gravitational_lensing}
 
 
 % *************************************************************
 %%%%% CHAPTER 3: LENS MODELS %%%%%
-\cleardoublepage
+\cleardoublepage%
 \include{3_chapters/chapter3_lens_models/3.0_lens_models}
 
 
 % *************************************************************
 %%%%% CHAPTER 4: OPTIMIZATION ALGORITHMS %%%%%
-\cleardoublepage
+\cleardoublepage%
 \include{3_chapters/chapter4_algorithms/4.0_algorithms}
 
 
 % *************************************************************
 %%%%% CHAPTER 5: APPLICATIONS %%%%%
-\cleardoublepage
+\cleardoublepage%
 \include{3_chapters/chapter5_applications/5.0_applications}
 
 
 % *************************************************************
 %%%%% CHAPTER 6: CONCLUSIONS %%%%%
-\cleardoublepage
+\cleardoublepage%
 \include{3_chapters/chapter6_conclusions/6.0_conclusions}
 
 
 %%%%% APPENDIX ***********************************
-\cleardoublepage
+\cleardoublepage%
 \appendix
 %\part{Appendices}
 %\include{4_appendix/4.0_appendix}
 
 
 %%%% BACK MATTER ***********************************
-\isstarredchaptertrue   % starred chapter: NO thumb index
+\isstarredchaptertrue% starred chapter: NO thumb index
 \bookmarksetup{startatroot}
 \addtocontents{toc}{\bigskip}
 
 
 %%%%% BIBLIOGRAPHY ***********************************
 \bibliographystyle{aasjournal}
-\cleardoublepage
+\cleardoublepage%
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliography{5_bibliography/references.bib}
 
