@@ -29,12 +29,12 @@
 
 
 %%%%%%%%%%%%%%% LOAD REPORT CLASS %%%%%%%%%%%%%%%
-\LoadClass[11pt, twoside, openright]{report}
+\LoadClass[11pt, oneside, openright]{report}
 
 
 %%%%%%%%%%%%%%% SET UP GEOMETRY PACKAGE %%%%%%%%%%%%%%%
 % \geometryoptions macro defined as [twoside] if draft mode is not enabled or defined as [twoside,driver=none] if draft mode is enabled
-\edef\geometryoptions{[twoside%
+\edef\geometryoptions{[%twoside%
 \ifmrdraft
     ,driver=none
 \fi]}

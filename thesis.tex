@@ -1,5 +1,5 @@
 %*******************************************************
-%%% Thesis for Astrophysics & Cosmology thesis
+%%% Astrophysics & Cosmology Master Thesis
 %%% Alma Mater Studiorum - University of Bologna
 %%% Author: Simone La Porta
 %%% Created: March 2024
@@ -7,8 +7,8 @@
 
 
 %%%%% DOCUMENT CLASS ************************************************************
-%\documentclass[print, final]{src/thesis}    % printing version
-\documentclass[final]{src/thesis}            % final electronic version)
+\documentclass[print, final]{src/thesis}    % printing version
+%\documentclass[final]{src/thesis}            % final electronic version)
 
 %%%%% PREAMBLE ******************************************************************
 % Loading files
@@ -26,6 +26,7 @@
 
 \AtBeginDocument{\RenewCommandCopy\qty\SI}	% fix for siunitx and siunitx-quantity
 \NewDocumentCommand{\anote}{}{\makebox[0pt][l]{$^*$}}	% add a note to tables
+
 %%%% MAIN DOCUMENT *************************************************************
 \begin{document}
 \selectlanguage{english}
@@ -55,20 +56,24 @@
 \singlespacing%
 
 \setcounter{page}{1}
-
 %%%%% ABSTRACT ***********************************
 \include{1_summary/abstract}
+\cleardoublepage
+\afterpage{\blankpage}
 
 %%%%% SOMMARIO ***********************************
 \include{1_summary/sommario}
+\cleardoublepage
+\afterpage{\blankpage}
 
 \onehalfspacing%
 
 \selectlanguage{english}
-%\cleardoublepage
+\cleardoublepage
 
 %%%%% TOC ***********************************
 \pdfbookmark{\contentsname}{Contents}
+\pagestyle{plain}
 \tableofcontents
 
 %\newpage
@@ -90,6 +95,7 @@
 \addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
 
+\afterpage{\blankpage}
 
 %%%%% MAIN MATTER ***********************************
 \isstarredchapterfalse% normal chapter: YES thumb index
@@ -98,7 +104,6 @@
 \setcounter{page}{1}
 \pagenumbering{arabic}
 \pagestyle{fancy}
-
 % *************************************************************
 %%%%% CHAPTER 1: INTRODUCTION %%%%%
 \include{3_chapters/chapter1_cosmology/1.0_cosmology}
@@ -133,6 +138,7 @@
 \cleardoublepage%
 \include{3_chapters/chapter6_conclusions/6.0_conclusions}
 
+\afterpage{\blankpage}
 
 %%%%% APPENDIX ***********************************
 \cleardoublepage%
@@ -140,7 +146,8 @@
 %\part{Appendices}
 %\include{4_appendix/4.0_appendix}
 
-
+\pagenumbering{roman}
+\setcounter{page}{8}
 %%%% BACK MATTER ***********************************
 \isstarredchaptertrue% starred chapter: NO thumb index
 \bookmarksetup{startatroot}
@@ -152,11 +159,12 @@
 \cleardoublepage%
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliography{5_bibliography/references.bib}
+\afterpage{\blankpage}
 
-
-%%%%% BIBLIOGRAPHY ***********************************
+%%%%% AKNOWLEDGEMENTS ***********************************
 \selectlanguage{italian}
 \include{6_ringraziamenti/ringraziamenti}    % ringraziamenti
+\afterpage{\blankpage}
 
 %%%% BACK ***********************************
 % Add back cover if the option 'print' is not used. Require an even number of pages.
